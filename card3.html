@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100vw;
+            height:100vh;
+           background-color: rgb(14, 6, 79);
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .card{
+            width:800px;
+            height:400px;
+            background-color:darkviolet;
+           
+           
+
+        }
+        .card img{
+            width: 400px;
+            height: 400px;
+            float: right;
+           
+           
+        }
+        #leftbox{
+            width:350px;
+            height:400px;
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+            padding-top: 30px;
+            padding-left: 30px;
+            gap: 55px;
+        }
+        #leftbox h2{
+            font-size: 35px;
+        }
+        #leftbox section {
+            display: flex;
+            gap: 35px;
+        }
+        #leftbox  p{
+            font-size: smaller;
+          
+        }
+       .textbox span{
+        font-size: 40px;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="public\business tech.jpg" alt="">
+            <div id="leftbox">
+                <h2 class="rightbox"> Get insights that help your business grow.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, id veritatis temporibus hic est totam pariatur repudiandae error deserunt distinctio?</p>
+                <section class="mark">
+                   <div class="textbox">
+                   <span>10k+</span>
+                   <p>Comments</p>
+                   </div>
+
+                   <div class="textbox">
+                    <span>214</span>
+                    <p>Paid user</p>
+                    </div>
+
+                    <div class="textbox">
+                        <span>12M+</span>
+                        <p>Views</p>
+                        </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
